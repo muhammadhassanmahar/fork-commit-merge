@@ -12,14 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Fork, Commit, Merge'),
-        ),
+        appBar: AppBar(title: const Text('Fork, Commit, Merge')),
         body: const Center(
-          child: Text(
-            'Hello, Flutter!',
-            style: TextStyle(fontSize: 24),
-          ),
+          child: Text('Hello, Flutter!', style: TextStyle(fontSize: 24)),
         ),
       ),
     );
